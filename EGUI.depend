@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1389947577 source:/home/lopez/prog/EGUI/tests/tests_main.cpp
+	<gtest/gtest.h>
+
