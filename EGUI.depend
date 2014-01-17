@@ -11,3 +11,64 @@
 
 1389949215 /home/lopez/prog/EGUI/src/core/namespace_core.hpp
 
+1389951485 source:/home/lopez/prog/EGUI/src/widget/widget.cpp
+	"widget.hpp"
+	"layout.hpp"
+
+1389951444 /home/lopez/prog/EGUI/src/widget/widget.hpp
+	<memory>
+	<Core/Utils/NonCopiable>
+	"namespace_widget.hpp"
+
+1389949369 /home/lopez/prog/EGUI/include/Core/Utils/NonCopiable
+	"../../../src/core/utils/noncopiable.hpp"
+
+1389950628 /home/lopez/prog/EGUI/src/core/utils/noncopiable.hpp
+	"namespace_utils.hpp"
+
+1389950655 /home/lopez/prog/EGUI/src/core/utils/namespace_utils.hpp
+	"../namespace_core.hpp"
+
+1389950867 /home/lopez/prog/EGUI/src/widget/namespace_widget.hpp
+
+1389951223 source:/home/lopez/prog/EGUI/src/widget/layout.cpp
+	"layout.hpp"
+
+1389951215 /home/lopez/prog/EGUI/src/widget/layout.hpp
+	<Core/Utils/NonCopiable>
+	"namespace_widget.hpp"
+
+1389953045 source:/home/lopez/prog/EGUI/src/gui/application.cpp
+	"application.hpp"
+	<cstdlib>
+
+1389953014 /home/lopez/prog/EGUI/src/gui/application.hpp
+	<Core/Utils/NonCopiable>
+	"namespace_gui.hpp"
+
+1389952887 /home/lopez/prog/EGUI/src/gui/namespace_gui.hpp
+
+1389951223 source:/home/lopez/prog/EGUI/src/gui/widget/layout.cpp
+	"layout.hpp"
+
+1389951215 /home/lopez/prog/EGUI/src/gui/widget/layout.hpp
+	<Core/Utils/NonCopiable>
+	"namespace_widget.hpp"
+
+1389950867 /home/lopez/prog/EGUI/src/gui/widget/namespace_widget.hpp
+
+1389951485 source:/home/lopez/prog/EGUI/src/gui/widget/widget.cpp
+	"widget.hpp"
+	"layout.hpp"
+
+1389951444 /home/lopez/prog/EGUI/src/gui/widget/widget.hpp
+	<memory>
+	<Core/Utils/NonCopiable>
+	"namespace_widget.hpp"
+
+1389952665 source:/home/lopez/prog/EGUI/tests/main_graphical_test.cpp
+	<Gui/Application>
+
+1389952983 /home/lopez/prog/EGUI/include/Gui/Application
+	"../../src/gui/application.hpp"
+

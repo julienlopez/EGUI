@@ -1,7 +1,7 @@
 #ifndef __NONCOPIABLE_HPP__
 #define __NONCOPIABLE_HPP__
 
-#include "utils.hpp"
+#include "namespace_utils.hpp"
 
 BEGIN_NAMESPACE_CORE
 
