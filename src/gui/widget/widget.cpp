@@ -30,6 +30,11 @@ void Widget::draw() const
 
 }
 
+void Widget::show()
+{
+
+}
+
 END_NAMESPACE_WIDGET
 
 END_NAMESPACE_GUI

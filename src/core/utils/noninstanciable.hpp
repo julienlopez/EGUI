@@ -1,7 +1,7 @@
 #ifndef __NONINSTANCIABLE_HPP__
 #define __NONINSTANCIABLE_HPP__
 
-#include "utils.hpp"
+#include "namespace_utils.hpp"
 
 BEGIN_NAMESPACE_CORE
 

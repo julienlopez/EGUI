@@ -61,13 +61,20 @@
 			<Add option="-Wall" />
 			<Add directory="include" />
 		</Compiler>
+		<Linker>
+			<Add option="-lX11" />
+		</Linker>
 		<Unit filename="src/core/color.cpp" />
 		<Unit filename="src/core/color.hpp" />
 		<Unit filename="src/core/namespace_core.hpp" />
+		<Unit filename="src/core/utils/defaultfactoryerrorpolicy.hpp" />
+		<Unit filename="src/core/utils/factory.hpp" />
 		<Unit filename="src/core/utils/namespace_utils.hpp" />
 		<Unit filename="src/core/utils/noncopiable.hpp" />
 		<Unit filename="src/core/utils/noninstanciable.hpp" />
+		<Unit filename="src/core/utils/parametertrait.hpp" />
 		<Unit filename="src/core/utils/pimpl.hpp" />
+		<Unit filename="src/core/utils/singleton.hpp" />
 		<Unit filename="src/gui/application.cpp" />
 		<Unit filename="src/gui/application.hpp" />
 		<Unit filename="src/gui/application_UT.cpp">
@@ -79,6 +86,14 @@
 		<Unit filename="src/gui/widget/namespace_widget.hpp" />
 		<Unit filename="src/gui/widget/widget.cpp" />
 		<Unit filename="src/gui/widget/widget.hpp" />
+		<Unit filename="src/rendering/crtp_renderer.hpp" />
+		<Unit filename="src/rendering/irenderer.cpp" />
+		<Unit filename="src/rendering/irenderer.hpp" />
+		<Unit filename="src/rendering/namespace_rendering.hpp" />
+		<Unit filename="src/rendering/rendererfactory.cpp" />
+		<Unit filename="src/rendering/rendererfactory.hpp" />
+		<Unit filename="src/rendering/x11renderer.cpp" />
+		<Unit filename="src/rendering/x11renderer.hpp" />
 		<Unit filename="tests/main_graphical_test.cpp">
 			<Option target="Debug" />
 			<Option target="Release" />

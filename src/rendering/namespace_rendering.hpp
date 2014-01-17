@@ -1,0 +1,8 @@
+#ifndef __NAMESPACE_RENDERING_HPP__
+#define __NAMESPACE_RENDERING_HPP__
+
+#define BEGIN_NAMESPACE_RENDERING namespace Rendering {
+
+#define END_NAMESPACE_RENDERING }
+
+#endif

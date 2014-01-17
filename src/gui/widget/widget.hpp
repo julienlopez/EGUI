@@ -24,6 +24,8 @@ class Widget : private Core::Utils::NonCopiable
 		void setLayout(up_layout&& layout_);
 		up_layout& layout();
 
+		virtual void show() final;
+
 	protected:
 		virtual void draw() const;
 

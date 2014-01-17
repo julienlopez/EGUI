@@ -1,12 +1,15 @@
- #include "application.hpp"
+#include "application.hpp"
 
- #include <cstdlib>
+#include <cstdlib>
+
+#include <Rendering/RendererFactory>
 
 BEGIN_NAMESPACE_GUI
 
 Application::Application(int argc, char* argv[])
 {
 	fillArguments(argc, argv);
+	m_renderer = Rendering::RendererFactory::createDefaultRenderer();
 }
 
 Application::~Application()

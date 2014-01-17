@@ -38,13 +38,15 @@
 	<Core/Utils/NonCopiable>
 	"namespace_widget.hpp"
 
-1389954448 source:/home/lopez/prog/EGUI/src/gui/application.cpp
+1389969271 source:/home/lopez/prog/EGUI/src/gui/application.cpp
 	"application.hpp"
 	<cstdlib>
+	<Rendering/RendererFactory>
 
-1389954399 /home/lopez/prog/EGUI/src/gui/application.hpp
-	<vector>
+1389969184 /home/lopez/prog/EGUI/src/gui/application.hpp
+	<memory>
 	<string>
+	<vector>
 	<Core/Utils/NonCopiable>
 	"namespace_gui.hpp"
 
@@ -60,22 +62,92 @@
 1389953132 /home/lopez/prog/EGUI/src/gui/widget/namespace_widget.hpp
 	"../namespace_gui.hpp"
 
-1389953267 source:/home/lopez/prog/EGUI/src/gui/widget/widget.cpp
+1389967609 source:/home/lopez/prog/EGUI/src/gui/widget/widget.cpp
 	"widget.hpp"
 	"layout.hpp"
 
-1389953248 /home/lopez/prog/EGUI/src/gui/widget/widget.hpp
+1389967594 /home/lopez/prog/EGUI/src/gui/widget/widget.hpp
 	<memory>
 	<Core/Utils/NonCopiable>
 	"namespace_widget.hpp"
 
-1389952665 source:/home/lopez/prog/EGUI/tests/main_graphical_test.cpp
+1389967400 source:/home/lopez/prog/EGUI/tests/main_graphical_test.cpp
 	<Gui/Application>
+	<Gui/Widget/Widget>
 
 1389952983 /home/lopez/prog/EGUI/include/Gui/Application
 	"../../src/gui/application.hpp"
 
-1389954337 source:/home/lopez/prog/EGUI/src/gui/application_UT.cpp
+1389954500 source:/home/lopez/prog/EGUI/src/gui/application_UT.cpp
 	<gtest/gtest.h>
 	"application.hpp"
+
+1389970741 source:/home/lopez/prog/EGUI/src/rendering/irenderer.cpp
+	"irenderer.hpp"
+
+1389970745 /home/lopez/prog/EGUI/src/rendering/irenderer.hpp
+	<string>
+	<Core/Utils/NonCopiable>
+	"namespace_rendering.hpp"
+
+1389968801 source:/home/lopez/prog/EGUI/src/rendering/x11renderer.cpp
+	"x11renderer.hpp"
+
+1389968601 /home/lopez/prog/EGUI/src/rendering/x11renderer.hpp
+	<memory>
+	<X11/Xlib.h>
+	"crtp_renderer.hpp"
+
+1389956087 /home/lopez/prog/EGUI/src/rendering/namespace_rendering.hpp
+
+1389970702 /home/lopez/prog/EGUI/src/rendering/crtp_renderer.hpp
+	<Core/Utils/Factory>
+	"irenderer.hpp"
+
+1389968374 source:/home/lopez/prog/EGUI/src/rendering/rendererfactory.cpp
+	"rendererfactory.hpp"
+	<Core/Utils/Factory>
+
+1389967540 /home/lopez/prog/EGUI/src/rendering/rendererfactory.hpp
+	<memory>
+	<Core/Utils/NonInstanciable>
+	<Rendering/iRenderer>
+
+1389949377 /home/lopez/prog/EGUI/include/Core/Utils/NonInstanciable
+	"../../../src/core/utils/noninstanciable.hpp"
+
+1389960341 /home/lopez/prog/EGUI/src/core/utils/noninstanciable.hpp
+	"namespace_utils.hpp"
+
+1389965407 /home/lopez/prog/EGUI/include/Rendering/iRenderer
+	"../../src/rendering/irenderer.hpp"
+
+1389953096 /home/lopez/prog/EGUI/include/Gui/Widget/Widget
+	"../../../src/gui/widget/widget.hpp"
+
+1389968085 /home/lopez/prog/EGUI/include/Core/Utils/Factory
+	"../../../src/core/utils/factory.hpp"
+
+1389968244 /home/lopez/prog/EGUI/src/core/utils/factory.hpp
+	"singleton.hpp"
+	"defaultfactoryerrorpolicy.hpp"
+	<map>
+	<functional>
+
+1389968140 /home/lopez/prog/EGUI/src/core/utils/singleton.hpp
+	<Core/Utils/NonCopiable>
+
+1389968170 /home/lopez/prog/EGUI/src/core/utils/defaultfactoryerrorpolicy.hpp
+	<Core/Utils/parametertrait>
+	<stdexcept>
+
+1389968121 /home/lopez/prog/EGUI/include/Core/Utils/parametertrait
+	"../../../src/core/utils/parametertrait.hpp"
+
+1389968191 /home/lopez/prog/EGUI/src/core/utils/parametertrait.hpp
+	"namespace_utils.hpp"
+	<type_traits>
+
+1389969295 /home/lopez/prog/EGUI/include/Rendering/RendererFactory
+	"../../src/rendering/rendererfactory.hpp"
 
