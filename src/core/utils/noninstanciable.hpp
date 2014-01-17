@@ -3,6 +3,8 @@
 
 #include "utils.hpp"
 
+BEGIN_NAMESPACE_CORE
+
 BEGIN_NAMESPACE_UTILS
 
 /**
@@ -21,5 +23,7 @@ class NonInstanciable
 };
 
 END_NAMESPACE_UTILS
+
+END_NAMESPACE_CORE
 
 #endif // __NONINSTANCIABLE_HPP__

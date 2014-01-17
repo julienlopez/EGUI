@@ -2,3 +2,12 @@
 1389947577 source:/home/lopez/prog/EGUI/tests/tests_main.cpp
 	<gtest/gtest.h>
 
+1389948503 source:/home/lopez/prog/EGUI/src/core/color.cpp
+	"color.hpp"
+
+1389948491 /home/lopez/prog/EGUI/src/core/color.hpp
+	<memory>
+	"namespace_core.hpp"
+
+1389949215 /home/lopez/prog/EGUI/src/core/namespace_core.hpp
+
