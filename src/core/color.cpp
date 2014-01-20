@@ -2,7 +2,7 @@
 
 BEGIN_NAMESPACE_CORE
 
-Color::Color(uint8_t r_, uint8_t g_, uint8_t b_, uint8_t a_): m_values{r_, g_, b_, a_}
+Color::Color(uint8_t r_, uint8_t g_, uint8_t b_, uint8_t a_): m_values{{r_, g_, b_, a_}}
 {}
 
 uint8_t Color::r() const

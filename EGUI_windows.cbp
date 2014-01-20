@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EGUI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/EGUI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/EGUI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="tests">
+				<Option output="bin/Debug/tests" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgtest" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wshadow" />
+			<Add option="-Winit-self" />
+			<Add option="-Wredundant-decls" />
+			<Add option="-Wcast-align" />
+			<Add option="-Wundef" />
+			<Add option="-Wfloat-equal" />
+			<Add option="-Winline" />
+			<Add option="-Wunreachable-code" />
+			<Add option="-Wmissing-declarations" />
+			<Add option="-Wmissing-include-dirs" />
+			<Add option="-Wswitch-enum" />
+			<Add option="-Wswitch-default" />
+			<Add option="-Wzero-as-null-pointer-constant" />
+			<Add option="-Wmain" />
+			<Add option="-pedantic" />
+			<Add option="-std=c++11" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lX11" />
+		</Linker>
+		<Unit filename="src/core/color.cpp" />
+		<Unit filename="src/core/color.hpp" />
+		<Unit filename="src/core/namespace_core.hpp" />
+		<Unit filename="src/core/utils/defaultfactoryerrorpolicy.hpp" />
+		<Unit filename="src/core/utils/factory.hpp" />
+		<Unit filename="src/core/utils/namespace_utils.hpp" />
+		<Unit filename="src/core/utils/noncopiable.hpp" />
+		<Unit filename="src/core/utils/noninstanciable.hpp" />
+		<Unit filename="src/core/utils/parametertrait.hpp" />
+		<Unit filename="src/core/utils/pimpl.hpp" />
+		<Unit filename="src/core/utils/singleton.hpp" />
+		<Unit filename="src/gui/application.cpp" />
+		<Unit filename="src/gui/application.hpp" />
+		<Unit filename="src/gui/application_UT.cpp">
+			<Option target="tests" />
+		</Unit>
+		<Unit filename="src/gui/namespace_gui.hpp" />
+		<Unit filename="src/gui/widget/layout.cpp" />
+		<Unit filename="src/gui/widget/layout.hpp" />
+		<Unit filename="src/gui/widget/namespace_widget.hpp" />
+		<Unit filename="src/gui/widget/widget.cpp" />
+		<Unit filename="src/gui/widget/widget.hpp" />
+		<Unit filename="src/rendering/crtp_renderer.hpp" />
+		<Unit filename="src/rendering/irenderer.cpp" />
+		<Unit filename="src/rendering/irenderer.hpp" />
+		<Unit filename="src/rendering/namespace_rendering.hpp" />
+		<Unit filename="src/rendering/rendererfactory.cpp" />
+		<Unit filename="src/rendering/rendererfactory.hpp" />
+		<Unit filename="src/rendering/x11renderer.cpp" />
+		<Unit filename="src/rendering/x11renderer.hpp" />
+		<Unit filename="tests/main_graphical_test.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="tests/tests_main.cpp">
+			<Option target="tests" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
